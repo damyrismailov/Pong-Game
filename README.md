@@ -1,22 +1,20 @@
-# Pong Game (Python, turtle)
+# Pong Game
 
-**Goal:** Two paddles, bouncing ball, scoring.  
-**Stack:** Python 3.x, `turtle`
+Two-player Pong game created with Python and turtle.
 
-## Features
-- Ball physics (angle/speed), paddle hit detection
-- Scoreboard, win condition
-- 2-player or simple AI (optional)
+## Main features
 
-## Controls
-- Left paddle: **W/S**
-- Right paddle: **Up/Down**
-
-## How to run
-```bash
-python main.py
+- Two paddles controlled from the keyboard.
+- Ball that bounces off paddles and walls.
+- Scoreboard that tracks each player’s points.
+- Basic increase in ball speed as the game continues.
 
 ## What I learned
-Reflection math & simple physics
-Input handling and game loop timing
-Code structure for small games
+
+- Organising code into classes (paddle, ball, scoreboard).
+- Collision detection and reflection logic.
+- Handling keyboard input in turtle.
+
+## How to run
+
+Open `main.py` in Python 3 and run the file.
